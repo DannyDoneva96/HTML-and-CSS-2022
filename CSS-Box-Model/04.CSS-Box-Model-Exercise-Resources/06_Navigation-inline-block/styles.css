@@ -1,0 +1,20 @@
+
+
+h1{ display:inline-block;}
+
+nav,li  {
+    display: inline-block;
+}
+
+li a{
+    font-weight: bold;
+    color: rgb(49, 239, 49);
+    text-decoration: none;
+    margin :1rem;
+}
+html{
+    font-family: Helvetica, sans-serif;
+}
+header{
+    border-bottom: 1px solid black;
+}
