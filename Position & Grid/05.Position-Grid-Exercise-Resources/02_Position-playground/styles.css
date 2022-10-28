@@ -1,0 +1,32 @@
+@import url("https://use.fontawesome.com/releases/v6.2.0/css/all.css");
+
+
+
+section.card {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div{
+    height: 50vh;
+   position: relative;
+}
+.first img{
+    width: 300px;
+}
+.last img{
+    width: 200px;
+}
+
+.first{background-image: linear-gradient(to right, #4069de, #0095fe, #00b9f5, #00d5cc, #12eb98);}
+.last{background-image: linear-gradient(to right, #ed41c6, #ff3a93, #ff5862, #ff7e37, #eba112);}
+
+i{
+    color: #fff;
+    position: absolute;
+    right: 5px;
+    bottom:8px
+}
