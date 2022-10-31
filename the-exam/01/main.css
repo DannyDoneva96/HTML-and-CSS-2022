@@ -1,0 +1,77 @@
+@import url("reset.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+  --clr-green: #86d862;
+  --clr-blue-btn: #05A2D3;
+  --clr-grey-bck: #F6F7F8;
+  --clr-grey-btn: #E0E0DF;
+
+
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.section {
+  margin: 2rem auto;
+
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 800px;
+  border: 1px solid grey;
+border-radius: 20px;
+background-color: var(--clr-grey-bck);
+box-shadow: -5px 26px 61px -14px rgba(0,0,0,0.69);
+-webkit-box-shadow: -5px 26px 61px -14px rgba(0,0,0,0.69);
+-moz-box-shadow: -5px 26px 61px -14px rgba(0,0,0,0.69);
+}
+
+.img-container{
+  background-image:url(./calculator.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+  border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;}
+
+
+.calc-container{
+  padding: 2rem;
+  width: 50%;
+  align-items: center; 
+
+  
+}
+.calc-container h3{
+  align-items: center;
+}
+.mainh1{
+  text-transform: uppercase;
+  text-align: center;
+  padding: 2rem;
+
+}
+
+.calc-container .btn-two{
+  border-radius: 10px;
+}
+
+.btn{
+  background-color: var(--clr-blue-btn);
+  color:rgb(255, 255, 255);
+  border-radius: 20px;
+  align-items: center;
+  width:90%;
+  margin: 2rem;
+
+  box-shadow: -5px 26px 61px -9px rgba(0,0,0,0.69);
+  -webkit-box-shadow: -5px 26px 61px -9px rgba(0,0,0,0.69);
+  -moz-box-shadow: -5px 26px 61px -9px rgba(0,0,0,0.69);
+}
+

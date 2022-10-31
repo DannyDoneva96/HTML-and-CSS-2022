@@ -1,0 +1,42 @@
+ @media screen and (max-width: 600px) {
+
+   
+     .site-navigation {
+         display: none;
+
+     }
+
+     .site-logos-container{
+        min-width: unset;
+     }
+
+     .site-information-image{
+        display:none;
+     }
+
+
+     .entry-title {
+        font-size: 4rem;
+     }
+
+     .site-posts {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 80%
+    }
+    .site-form .site-form-container h2{
+        font-size:0.5rem;
+    }
+    .site-post h2 a{
+        font: size 22px;
+    }
+   .site-post p{
+    font-size:17px;
+   }
+    
+    .site-footer {
+    flex-direction: column;
+    align-items: center;
+}
+ }
